@@ -1,0 +1,60 @@
+span.btn-teleg {
+    width: 1.667vw;
+    height: 1.667vw;
+    border-radius: 50%;
+    background-color: #1e9bd7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.46875vw;
+}
+
+span.btn-whats {
+    width: 1.667vw;
+    height: 1.667vw;
+    border-radius: 50%;
+    background-color: #2ebd38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.46875vw;
+}
+
+span.btn-vibe {
+    width: 1.667vw;
+    height: 1.667vw;
+    border-radius: 50%;
+    background-color: #7b68f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 0.46875vw;
+}
+
+.material-words::before {
+    display: none;
+}
+
+.toplang {
+    font-size: 16px;
+}
+
+.toplang a {
+    color: #fff;
+    font-size: 16px;
+    margin: 0 6px;
+}
+
+.quiz-semifinal__img {
+    width: 50.5625vw;
+    position: absolute;
+}
+
+@media (max-width: 767px) {
+    .toplang {
+        position: absolute;
+        top: 75px;
+        right: 8px;
+        z-index: 100;
+    }
+}
