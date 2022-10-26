@@ -183,6 +183,11 @@ $("input[name='social']").on('change, input', function () {
       .closest('form')
       .find('input[name="phone"]')
       .attr('placeholder', 'Ваш телефон Viber')
+  } else if ($(this).is('#phone')) {
+    $(this)
+      .closest('form')
+      .find('input[name="phone"]')
+      .attr('placeholder', 'Ваш телефон')
   } else if ($(this).is('#email')) {
     $(this)
       .closest('form')
