@@ -167,72 +167,72 @@ function anime(anim) {
   })
 }
 
-$("input[name='social']").on('change, input', function () {
-  if ($(this).is('#whatsapp')) {
-    $(this)
-      .closest('form')
-      .find('input[name="phone"]')
-      .attr('placeholder', 'Ваш телефон WhatsApp')
-  } else if ($(this).is('#telegram')) {
-    $(this)
-      .closest('form')
-      .find('input[name="phone"]')
-      .attr('placeholder', 'Ваш телефон Telegram')
-  } else if ($(this).is('#viber')) {
-    $(this)
-      .closest('form')
-      .find('input[name="phone"]')
-      .attr('placeholder', 'Ваш телефон Viber')
-  } else if ($(this).is('#phone')) {
-    $(this)
-      .closest('form')
-      .find('input[name="phone"]')
-      .attr('placeholder', 'Ваш телефон')
-  } else if ($(this).is('#email')) {
-    $(this)
-      .closest('form')
-      .find('input[name="phone"]')
-      .attr('placeholder', 'Ваш телефон')
-  }
-})
+// $("input[name='social']").on('change, input', function () {
+//   if ($(this).is('#whatsapp')) {
+//     $(this)
+//       .closest('form')
+//       .find('input[name="phone"]')
+//       .attr('placeholder', 'Ваш телефон WhatsApp')
+//   } else if ($(this).is('#telegram')) {
+//     $(this)
+//       .closest('form')
+//       .find('input[name="phone"]')
+//       .attr('placeholder', 'Ваш телефон Telegram')
+//   } else if ($(this).is('#viber')) {
+//     $(this)
+//       .closest('form')
+//       .find('input[name="phone"]')
+//       .attr('placeholder', 'Ваш телефон Viber')
+//   } else if ($(this).is('#phone')) {
+//     $(this)
+//       .closest('form')
+//       .find('input[name="phone"]')
+//       .attr('placeholder', 'Ваш телефон')
+//   } else if ($(this).is('#email')) {
+//     $(this)
+//       .closest('form')
+//       .find('input[name="phone"]')
+//       .attr('placeholder', 'Ваш телефон')
+//   }
+// })
 
-$("input[name='social2']").on('change, input', function () {
-  if ($(this).is('#whatsapp2')) {
-    $(this)
-      .closest('form')
-      .find('input[name="phone"]')
-      .attr('placeholder', 'Ваш телефон WhatsApp')
-  } else if ($(this).is('#telegram2')) {
-    $(this)
-      .closest('form')
-      .find('input[name="phone"]')
-      .attr('placeholder', 'Ваш телефон Telegram')
-  } else if ($(this).is('#viber2')) {
-    $(this)
-      .closest('form')
-      .find('input[name="phone"]')
-      .attr('placeholder', 'Ваш телефон Viber')
-  }
-})
+// $("input[name='social2']").on('change, input', function () {
+//   if ($(this).is('#whatsapp2')) {
+//     $(this)
+//       .closest('form')
+//       .find('input[name="phone"]')
+//       .attr('placeholder', 'Ваш телефон WhatsApp')
+//   } else if ($(this).is('#telegram2')) {
+//     $(this)
+//       .closest('form')
+//       .find('input[name="phone"]')
+//       .attr('placeholder', 'Ваш телефон Telegram')
+//   } else if ($(this).is('#viber2')) {
+//     $(this)
+//       .closest('form')
+//       .find('input[name="phone"]')
+//       .attr('placeholder', 'Ваш телефон Viber')
+//   }
+// })
 
-$("input[name='social3']").on('change, input', function () {
-  if ($(this).is('#whatsapp3')) {
-    $(this)
-      .closest('form')
-      .find('input[name="phone"]')
-      .attr('placeholder', 'Ваш телефон WhatsApp')
-  } else if ($(this).is('#telegram3')) {
-    $(this)
-      .closest('form')
-      .find('input[name="phone"]')
-      .attr('placeholder', 'Ваш телефон Telegram')
-  } else if ($(this).is('#viber3')) {
-    $(this)
-      .closest('form')
-      .find('input[name="phone"]')
-      .attr('placeholder', 'Ваш телефон Viber')
-  }
-})
+// $("input[name='social3']").on('change, input', function () {
+//   if ($(this).is('#whatsapp3')) {
+//     $(this)
+//       .closest('form')
+//       .find('input[name="phone"]')
+//       .attr('placeholder', 'Ваш телефон WhatsApp')
+//   } else if ($(this).is('#telegram3')) {
+//     $(this)
+//       .closest('form')
+//       .find('input[name="phone"]')
+//       .attr('placeholder', 'Ваш телефон Telegram')
+//   } else if ($(this).is('#viber3')) {
+//     $(this)
+//       .closest('form')
+//       .find('input[name="phone"]')
+//       .attr('placeholder', 'Ваш телефон Viber')
+//   }
+// })
 
 $('input[name="phone"]').mask('+380(99)999-99-99')
 

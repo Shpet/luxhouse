@@ -29,7 +29,7 @@
                 <div class="header__inner">
                     <div class="logo header-logo">
                         <a href="index.html" class="logo__img">
-                            <img class="lazyload" style="width: 5vw;"
+                            <img class="lazyload" style="width: 6vw;"
                                 src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
                                 data-src="./img/logo.svg" alt="логотип">
                         </a>
@@ -870,7 +870,7 @@
                                     Куди вам зручніше отримати розрахунок?
                                 </p>
 
-                                <div class="quiz-socials">
+                                <!-- <div class="quiz-socials">
 
                                     <label for="phone" class="quiz-social is-phone">
                                         <input class="quiz-social__input" checked="" type="radio" name="social"
@@ -928,18 +928,49 @@
                                             </div>
                                         </div>
                                     </label>
-                                </div>
-                                <input type="text" class="input quiz-semifinal__input fz18" placeholder="Ваше ім'я"
+                                </div> -->
+                                <!-- <input type="text" class="input quiz-semifinal__input fz18" placeholder="Ваше ім'я"
                                     name="name" required="">
-                                <input type="tel" class="input quiz-semifinal__input fz18"
-                                    placeholder="Ваш телефон" name="phone" required="">
+                                <input type="tel" class="input quiz-semifinal__input fz18" placeholder="Ваш телефон"
+                                    name="phone" required=""> -->
 
-                                <button class="btn">
+                                <!-- <button class="btn">
                                     <span class="btn-blick"></span>
                                     <span class="btn-text fz15 ttu">
                                         Отримати результат
                                     </span>
-                                </button>
+                                </button> -->
+                                <style>
+                                    .b24-form-wrapper.b24-form-border-bottom {
+                                        background: none;
+                                        border: none;
+                                    }
+
+                                    .b24-form-control-icon-after .b24-form-control,
+                                    .b24-form-btn {
+                                        background: #fff;
+                                        width: 17.34375vw;
+                                        margin-bottom: 0.833vw;
+                                        padding: 1vw 2.604vw;
+                                        display: flex;
+                                        border-radius: 100px;
+                                        box-shadow: none;
+                                        font-size: .9375vw;
+                                        align-items: center;
+                                    }
+                                    .b24-form-control-text .b24-form-control-label{
+                                        top: 40px;
+                                    }
+                                    .b24-form-control-icon-after .b24-form-control-label {
+                                        font-size: .9375vw;
+                                    }
+
+                                    .b24-form-btn {
+                                        background-color: #62c335;
+                                    }
+                                </style>
+                                <script data-b24-form="inline/317/bfa1el"
+                                    data-skip-moving="true">(function (w, d, u) { var s = d.createElement('script'); s.async = true; s.src = u + '?' + (Date.now() / 180000 | 0); var h = d.getElementsByTagName('script')[0]; h.parentNode.insertBefore(s, h); })(window, document, 'https://1bitrix.com/upload/crm/form/loader_317_bfa1el.js');</script>
 
                                 <label for="form-check1" class="policy">
                                     <input type="checkbox" class="rhide" required="" checked="" name="formcheck"
@@ -1300,278 +1331,6 @@
         </div>
     </div>
 
-    <div class="modal-overlay" id="modal-call" style="display:none;">
-        <div class="modal modal-call">
-            <div class="modal__close">
-                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                    data-src="./img/modal-close.png" alt="#">
-            </div>
-
-            <form class="modal__form tac" action="https://luxhouse.net.ua/thanks.php" method="post">
-                <input type="hidden" name="title" value="Перезвоним за 30 сек">
-
-                <p class="fz24 fw6 mbm tac">
-                    Передзвоніть мені
-                </p>
-
-                <p class="fz18 mbm tac">
-                    Введіть номер <br>
-                    телефону та ми Вам передзвонимо <br>
-                    протягом 5 хвилин
-                </p>
-
-                <input type="tel" class="input quiz-semifinal__input fz14" placeholder="Ваш телефон" name="phone"
-                    required="">
-
-                <button class="btn">
-                    <span class="btn-blick"></span>
-                    <span class="btn-text fz14 ttu">
-                        Передзвоніть мені
-                    </span>
-                </button>
-
-                <label for="form-check5" class="policy">
-                    <input type="checkbox" class="rhide" required="" checked="" name="formcheck" id="form-check5">
-                    <span class="policy__check">
-                        <img class="lazyload"
-                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                            data-src="./img/check-light.png" alt="#">
-                    </span>
-
-                    <span class="policy__text fz12">
-                        <a href="index.html#modal-politics" class="link js-btn tal">
-                            Ви погоджуєтесь з умовами обробки <br>
-                            персональних даних
-                        </a>
-                    </span>
-                </label>
-            </form>
-
-            <div class="modal-person">
-                <div class="modal-person__img">
-                    <img class="lazyload"
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        data-src="./img/modal-person.png" alt="#">
-                </div>
-
-                <div class="modal-person__name">
-                    <p class="fz16">
-                        Олександр <br>
-                        Іванович
-                    </p>
-
-                    <p class="fz13">
-                        Директор
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="modal-overlay" id="modal-good" style="display:none;">
-        <div class="modal modal-call">
-            <div class="modal__close">
-                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                    data-src="./img/modal-close.png" alt="#">
-            </div>
-
-            <form class="modal__form tac" action="https://luxhouse.net.ua/thanks.php" method="post">
-                <input type="hidden" name="title" value="Заказать хороший косметический ремонт ">
-
-                <p class="fz24 fw6 mbm tac">
-                    Замовити <span class="colored">гарний <br>
-                        косметичний ремонт</span>
-                </p>
-
-                <p class="fz18 mbm tac">
-                    Введіть номер <br>
-                    телефону та ми Вам передзвонимо <br>
-                    протягом 5 хвилин
-                </p>
-
-                <input type="tel" class="input quiz-semifinal__input fz14" placeholder="Ваш телефон" name="phone"
-                    required="">
-
-                <button class="btn">
-                    <span class="btn-blick"></span>
-                    <span class="btn-text fz14 ttu">
-                        Передзвоніть мені
-                    </span>
-                </button>
-
-                <label for="form-check6" class="policy">
-                    <input type="checkbox" class="rhide" required="" checked="" name="formcheck" id="form-check6">
-                    <span class="policy__check">
-                        <img class="lazyload"
-                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                            data-src="./img/check-light.png" alt="#">
-                    </span>
-
-                    <span class="policy__text fz12">
-                        <a href="index.html#modal-politics" class="link js-btn tal">
-                            Ви погоджуєтесь з умовами обробки <br>
-                            персональних даних
-                        </a>
-                    </span>
-                </label>
-            </form>
-
-            <div class="modal-person">
-                <div class="modal-person__img">
-                    <img class="lazyload"
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        data-src="./img/modal-person.png" alt="#">
-                </div>
-
-                <div class="modal-person__name">
-                    <p class="fz16">
-                        Олександр <br>
-                        Іванович
-                    </p>
-
-                    <p class="fz13">
-                        Директор
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal-overlay" id="modal-serious" style="display:none;">
-        <div class="modal modal-call">
-            <div class="modal__close">
-                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                    data-src="./img/modal-close.png" alt="#">
-            </div>
-
-            <form class="modal__form tac" action="https://luxhouse.net.ua/thanks.php" method="post">
-                <input type="hidden" name="title" value="Заказать серьезный капитальный ремонт ">
-
-                <p class="fz24 fw6 mbm tac">
-                    Замовити <span class="colored">серйозний <br>
-                        капітальний ремонт</span>
-                </p>
-
-                <p class="fz18 mbm tac">
-                    Введіть номер <br>
-                    телефону та ми Вам передзвонимо <br>
-                    протягом 5 хвилин
-                </p>
-
-                <input type="tel" class="input quiz-semifinal__input fz14" placeholder="Ваш телефон" name="phone"
-                    required="">
-
-                <button class="btn">
-                    <span class="btn-blick"></span>
-                    <span class="btn-text fz14 ttu">
-                        Передзвоніть мені
-                    </span>
-                </button>
-
-                <label for="form-check7" class="policy">
-                    <input type="checkbox" class="rhide" required="" checked="" name="formcheck" id="form-check7">
-                    <span class="policy__check">
-                        <img class="lazyload"
-                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                            data-src="./img/check-light.png" alt="#">
-                    </span>
-
-                    <span class="policy__text fz12">
-                        <a href="index.html#modal-politics" class="link js-btn tal">
-                            Ви погоджуєтесь з умовами обробки <br>
-                            персональних даних
-                        </a>
-                    </span>
-                </label>
-            </form>
-
-            <div class="modal-person">
-                <div class="modal-person__img">
-                    <img class="lazyload"
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        data-src="./img/modal-person.png" alt="#">
-                </div>
-
-                <div class="modal-person__name">
-                    <p class="fz16">
-                        Олександр <br>
-                        Іванович
-                    </p>
-
-                    <p class="fz13">
-                        Директор
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-    <div class="modal-overlay" id="modal-style" style="display:none;">
-        <div class="modal modal-call">
-            <div class="modal__close">
-                <img class="lazyload" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                    data-src="./img/modal-close.png" alt="#">
-            </div>
-
-            <form class="modal__form tac" action="https://luxhouse.net.ua/thanks.php" method="post">
-                <input type="hidden" name="title" value="Заказать стильный ремонт по дизайн-макету ">
-
-                <p class="fz24 fw6 mbm tac">
-                    Замовити <span class="colored">стильний <br>
-                        ремонт з дизайн-макету</span>
-                </p>
-
-                <p class="fz18 mbm tac">
-                    Введіть номер <br>
-                    телефону та ми Вам передзвонимо <br>
-                    протягом 5 хвилин
-                </p>
-
-                <input type="tel" class="input quiz-semifinal__input fz14" placeholder="Ваш телефон" name="phone"
-                    required="">
-
-                <button class="btn">
-                    <span class="btn-blick"></span>
-                    <span class="btn-text fz14 ttu">
-                        Передзвоніть мені
-                    </span>
-                </button>
-
-                <label for="form-check8" class="policy">
-                    <input type="checkbox" class="rhide" required="" checked="" name="formcheck" id="form-check8">
-                    <span class="policy__check">
-                        <img class="lazyload"
-                            src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                            data-src="./img/check-light.png" alt="#">
-                    </span>
-
-                    <span class="policy__text fz12">
-                        <a href="index.html#modal-politics" class="link js-btn tal">
-                            Ви погоджуєтесь з умовами обробки <br>
-                            персональних даних
-                        </a>
-                    </span>
-                </label>
-            </form>
-
-            <div class="modal-person">
-                <div class="modal-person__img">
-                    <img class="lazyload"
-                        src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
-                        data-src="./img/modal-person.png" alt="#">
-                </div>
-
-                <div class="modal-person__name">
-                    <p class="fz16">
-                        Олександр <br>
-                        Іванович
-                    </p>
-
-                    <p class="fz13">
-                        Директор
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
     <div class="modal-overlay" id="modal-politics" style="display: none;">
         <div class="modal modal-politics lt">
             <div class="modal__close">
