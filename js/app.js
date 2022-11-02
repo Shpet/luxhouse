@@ -325,6 +325,8 @@ var defaultOptions = {
 }
 
 /* Quiz */
+const QUIZ_TOTAL = 5
+
 var number = 0
 var maxNumber = $('.quiz-item').length
 var $element = $('.quiz-item').find('input, select, textarea')
@@ -333,14 +335,25 @@ var btnNext = $('.quiz-btn--next')
 var isValid
 var dataBlock
 var activeSlide = []
-
+let quizResult = []
+let bxTextarea
+let step = 0
 $element.on('change input', function (e) {
   var value = $(this).val().trim()
+
+  if (quizResult[quizResult.length - 1] !== `${step} - ${value}`) {
+    step++
+    quizResult.push(`${step} - ${value}`)
+  }
+
+  if (QUIZ_TOTAL == step) {
+    bxTextarea.textContent = quizResult.toString()
+  }
   isValid = value !== ''
   btnActive(!isValid)
 })
 
-$('input[name="quiz1"]').on('change', function () {
+$('input[name="quiz1"]').on('change', function (e) {
   setTimeout(function () {
     btnNext.click()
   }, 500)
@@ -487,6 +500,16 @@ $(document).ready(function ($) {
     $('.btn--burger-wrapper').removeClass('active')
     $('.widget-menu').removeClass('active')
   }
+
+  const bxInterval = setInterval(() => {
+    if (window.b24form) {
+      bxTextarea = document.querySelector('textarea.b24-form-control')
+
+      bxTextarea.style.display = 'none'
+
+      clearInterval(bxInterval)
+    }
+  }, 500)
 })
 
 /* Cookie */
